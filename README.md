@@ -1,11 +1,11 @@
 # spoc-website-test
 My first attempt at creating and styling a webpage
 
-# To-Do:
+## To-Do:
 - ~~create base html~~
 - ~~add image assests~~
 - style contents
 - tune html adn styling
 
-### Credits
+## Credits
 - Roboto Font Family - Google
