@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./Fonts/Roboto/Roboto-Light.ttf);
+  }
+
+body {
+    margin: 0px;
+}
+header {
+    display: flex;
+    flex: auto;
+    background-color:  #001c37;
+    align-items: center;
+    justify-content:space-between;
+}
+
+header img {
+    width: 56px;
+    height: auto;
+    margin-left: 50px;
+}
+
+.links {
+    display: flex;
+    flex: auto;
+    justify-content: space-between;
+    max-width: 400px;
+    margin-right: 100px;
+}
+header a:link,
+header a:visited {
+    font-size: 18px;
+    color: #E5E7Eb;
+    font-family: Roboto;
+    text-decoration: none;
+}

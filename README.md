@@ -6,3 +6,6 @@ My first attempt at creating and styling a webpage
 - ~~add image assests~~
 - style contents
 - tune html adn styling
+
+### Credits
+- Roboto Font Family - Google
