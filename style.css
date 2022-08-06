@@ -1,36 +1,70 @@
 @font-face {
-    font-family: Roboto;
-    src: url(./Fonts/Roboto/Roboto-Light.ttf);
-  }
-
+    font-family: roboto;
+    src: url(./Fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: roboto-bold;
+    src: url(./Fonts/Roboto/Roboto-Bold.ttf);
+}
 body {
     margin: 0px;
 }
+#width {
+    display: flex;
+    justify-content: center;
+    background-color: #001c37;
+}
 header {
+    max-width: 1200px;
     display: flex;
     flex: auto;
     background-color:  #001c37;
     align-items: center;
     justify-content:space-between;
+    padding: 0px 150px 0px 150px;
 }
-
 header img {
-    width: 56px;
+    width: 150px;
     height: auto;
-    margin-left: 50px;
 }
-
-.links {
+header .links {
     display: flex;
     flex: auto;
     justify-content: space-between;
     max-width: 400px;
-    margin-right: 100px;
 }
 header a:link,
 header a:visited {
     font-size: 18px;
     color: #E5E7Eb;
-    font-family: Roboto;
+    font-family: roboto;
     text-decoration: none;
+}
+.intro {
+    max-width: 1200px;
+    display: flex;
+    flex: auto;
+    padding: 100px 150px 0px 150px;
+    background-color: #001c37;
+    font-size: 18px;
+    font-family: roboto;
+    color: #E5E7Eb;
+    justify-content: space-between;
+}
+.intro .text {
+    width: auto;
+    min-width: 500px;
+}
+
+.intro h2  {
+    font-size: 48px;
+    font-family: roboto-bold;
+}
+
+.intro img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    border-radius: 3%;
+    border: 2px solid #E5E7Eb;
 }

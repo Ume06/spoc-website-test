@@ -5,7 +5,12 @@ My first attempt at creating and styling a webpage
 - ~~create base html~~
 - ~~add image assests~~
 - style contents
-- tune html adn styling
+    - ~~style header~~
+    - ~~style intro~~
+    - style gallery
+    - style banner
+    - style footer
+- tune html and styling
 
 ## Credits
 - Roboto Font Family - Google
